@@ -1,0 +1,66 @@
+/* Universal Styles */
+
+body {
+  background-image: url("../images/background.png");
+  font-size: 14px;
+  margin: 0 auto;
+  font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+/* Nav Bar  Styles*/
+.navbar-brand {
+  font-size: 30px;
+}
+
+nav{
+  border-bottom: 1px whitesmoke solid;
+}
+
+nav a{
+  font-size: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color:#343a40;
+  color: #ffffff;
+  border-top: 1px whitesmoke solid;
+  font-size: 12px;
+}
+
+.footer-container {
+  margin-top: 20px;
+}
+
+.footer-container a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container a:hover{
+  font-size: 18px;
+}
+
+
+/* About Me Page Styles */
+.container.about-me {
+  background-color: #343a40;
+  margin-top: 90px;
+  margin-bottom: 120px;
+  padding: 10px 20px;
+  border: 1px whitesmoke solid;
+}
+
+.container.about-me h1{
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.container.about-me hr {
+  background-color: whitesmoke;
+}
+
+.container.about-me .row {
+  margin-top: 10px;
+}
