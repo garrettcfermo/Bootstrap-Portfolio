@@ -18,7 +18,7 @@ nav{
 }
 
 nav a{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Footer Styles */
@@ -63,4 +63,44 @@ footer {
 
 .container.about-me .row {
   margin-top: 10px;
+}
+
+
+/* Portfolio Page Styles */
+
+.container.portfolio {
+  background-color: #343a40;
+  margin-top: 90px;
+  margin-bottom: 120px;
+  padding: 10px 20px;
+  border: 1px whitesmoke solid;
+}
+
+.container.portfolio h1{
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.container.portfolio hr {
+  background-color: whitesmoke;
+}
+
+.container.portfolio .row {
+  margin-top: 10px;
+}
+
+.d-block.w-100 {
+  max-height: 450px;
+}
+
+.carousel-caption {
+  background-color: #343a40;
+  border-radius: 40px;
+  padding:10px;
+  color:whitesmoke;
+  border: 1px white solid
+}
+
+.carousel-caption h5 {
+  font-size: 24px;
 }
