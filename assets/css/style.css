@@ -110,8 +110,9 @@ img.img-fluid {
   border: 1px white solid
 }
 
-.carousel-caption h5 {
+.carousel-caption h5 a {
   font-size: 24px;
+  color: white
 }
 
 /* Contract Page Styles */
